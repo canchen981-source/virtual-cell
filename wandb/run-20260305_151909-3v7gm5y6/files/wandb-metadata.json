@@ -1,0 +1,51 @@
+{
+  "os":  "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.19",
+  "startedAt":  "2026-03-05T07:19:09.227213Z",
+  "args":  [
+    "--data_dir",
+    "data/pretraining/",
+    "--pe",
+    "--cross_message_passing",
+    "--blending",
+    "--wandb"
+  ],
+  "program":  "/root/autodl-tmp/HEIST/main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "email":  "canchen981@gmail.com",
+  "root":  "/root/autodl-tmp/HEIST",
+  "host":  "autodl-container-31eb41bf76-7aeec792",
+  "executable":  "/root/autodl-tmp/conda/envs/HEIST/bin/python",
+  "cpu_count":  104,
+  "cpu_count_logical":  208,
+  "gpu":  "NVIDIA GeForce RTX 5090",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "5507698688"
+    }
+  },
+  "memory":  {
+    "total":  "810155819008"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5090",
+      "memoryTotal":  "34190917632",
+      "cudaCores":  21760,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-b6fed4c7-ad74-7037-7c9e-ab896e434e26"
+    },
+    {
+      "name":  "NVIDIA GeForce RTX 5090",
+      "memoryTotal":  "34190917632",
+      "cudaCores":  21760,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-5e383bb3-c836-8bf6-c567-577b223d34b4"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "8mu7koxv26ufrwnfr8w2zjej8xgy2twn"
+}

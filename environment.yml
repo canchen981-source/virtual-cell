@@ -1,0 +1,122 @@
+name: HEIST
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas>=2.1
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - ipykernel
+  - jupyterlab
+  - pytz
+  - zipp
+  - setuptools
+  - wheel
+  - ca-certificates
+  - openssl
+  - readline
+  - sqlite
+  - tk
+  - xz
+  - zlib
+  - pip:
+      # --- Core DL / ML stack ---
+      - torch==2.5.1
+      - torchvision==0.20.1
+      - torchaudio==2.5.1
+      - torch-geometric==2.5.3
+      - pytorch-lightning>=2.5
+      - lightning>=2.5
+      - torchinfo
+      - einops
+      - e3nn
+      - opt-einsum
+      - opt-einsum-fx
+
+      # --- Scientific / data stack ---
+      - anndata>=0.11
+      - scanpy>=1.11
+      - tiledbsoma>=1.17
+      - somacore>=1.0
+      - cellxgene-census>=1.17
+      - h5py
+      - pyarrow>=14.0
+      - openpyxl
+      - statsmodels
+      - patsy
+      - umap-learn
+      - phate
+      - scprep
+      - pandas
+      - numpy
+      - matplotlib
+      - seaborn
+      - plotly
+
+      # --- Chemistry / protein modeling ---
+      - rdkit>=2023.9
+      - biopython
+      - biopandas
+      - graphein
+      - proteinworkshop
+      - ogb
+      - cpdb-protein
+
+      # --- Utility & logging ---
+      - wandb
+      - hydra-core
+      - hydra-colorlog
+      - omegaconf
+      - rich
+      - rich-click
+      - loguru
+      - tqdm
+      - psutil
+      - python-dotenv
+      - requests
+      - future
+      - filelock
+      - beautifulsoup4
+      - lxml
+
+      # --- Async / I/O stack (loosened) ---
+      - aiohttp
+      - aiobotocore
+      - aioitertools
+      - botocore
+      - s3fs
+      - fsspec
+      - yarl
+
+      # --- Visualization & notebooks ---
+      - ipywidgets
+      - jupyterlab-widgets
+      - matplotlib-inline
+
+      # --- Misc scientific utils ---
+      - sympy
+      - networkx
+      - shapely
+      - greenlet
+      - geovoronoi
+      - joblib
+      - numba
+      - h11
+      - httpx
+      - huggingface-hub
+      - fastcore
+      - requests-cache
+
+      # --- Version control / tracking ---
+      - gitpython
+      - docker-pycreds
+
+      # --- Optional ---
+      - outdated
+      - session-info2

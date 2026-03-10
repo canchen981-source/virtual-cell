@@ -1,0 +1,13 @@
+{
+  "os":  "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.19",
+  "startedAt":  "2026-03-05T07:12:47.696058Z",
+  "program":  "/root/autodl-tmp/HEIST/wandb_test.py",
+  "codePath":  "wandb_test.py",
+  "codePathLocal":  "wandb_test.py",
+  "email":  "canchen981@gmail.com",
+  "root":  "/root/autodl-tmp/HEIST",
+  "host":  "autodl-container-31eb41bf76-7aeec792",
+  "executable":  "/root/autodl-tmp/conda/envs/HEIST/bin/python",
+  "writerId":  "091moy6infgkpmamxxy2x7ujxesm6kf4"
+}
